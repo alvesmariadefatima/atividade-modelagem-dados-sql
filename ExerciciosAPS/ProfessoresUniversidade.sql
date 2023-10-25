@@ -1,0 +1,11 @@
+CREATE TABLE ProfessoresUniversidade (
+	COD_PROF int,
+	nome varchar,
+	endereco varchar,
+	cidade varchar
+);
+
+INSERT INTO ProfessoresUniversidade (COD_PROF, NOME, ENDERECO, CIDADE) VALUES
+(212131, 'NICKERSON FERREIRA', 'RUA MANAÍRA', 'JOÃO PESSOA'),
+(122135, 'ADORILSON BEZERRA', 'AVENIDA SALGADO FILHO', 'NATAL'),
+(192011, 'DIEGO OLIVEIRA', 'AVENIDA ROBERTO FREIRE', 'NATAL');

@@ -1,0 +1,11 @@
+CREATE TABLE DisciplinasUniversidade (
+    COD_DISC varchar,
+    NOME_DISC varchar,
+    CARGA_HOR int
+);
+
+INSERT INTO DisciplinasUniversidade (COD_DISC, NOME_DISC, CARGA_HOR) VALUES
+('BD', 'BANCO DE DADOS', 100),
+('POO', 'PROGRAMAÇÃO COM ACESSO A BANCO DE DADOS', 100),
+('WEB', 'AUTORIA WEB', 50),
+('ENG', 'ENGENHARIA DE SOFTWARE', 80);
